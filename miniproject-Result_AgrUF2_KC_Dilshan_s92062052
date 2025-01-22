@@ -1,0 +1,178 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,Connect
+1716142055461,0,Open web Application,200,"Number of samples in transaction : 0, number of failing samples : 0",User Flow 2 2-1,,true,,0,0,1,2,null,0,0
+1716142055464,640,HTTP Request,200,,User Flow 2 2-1,text,true,,1475,186,1,2,https://petstore.octoperf.com/,640,456
+1716142059115,221,Enter the store,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2073,741,1,2,null,0,0
+1716142059115,221,/actions/Catalog.action-42,200,,User Flow 2 2-1,text,true,,2073,741,1,2,https://petstore.octoperf.com/actions/Catalog.action,220,0
+1716142062341,198,Sign In,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2104,819,1,2,null,0,0
+1716142062341,198,/actions/Account.action;jsessionid=270E026CB2724617D80B1C9E178EE905-56,200,,User Flow 2 2-1,text,true,,2104,819,1,2,https://petstore.octoperf.com/actions/Account.action;jsessionid=270E026CB2724617D80B1C9E178EE905?signonForm=,196,0
+1716142065543,553,Enter username and password,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2001,9738,1,2,null,0,152
+1716142065544,553,/service/update2/json?cup2key=14:75zUsTrFVvqPnuxwjYwBGfo7DyMwg2-nKhZtna2vLXM&cup2hreq=35fbb29de5f61a698cdde8edf66223ae0c6af8884e33212766da1c4dafc2f1a1-58,200,OK,User Flow 2 2-1,text,true,,2001,9738,1,2,http://update.googleapis.com/service/update2/json?cup2key=14:75zUsTrFVvqPnuxwjYwBGfo7DyMwg2-nKhZtna2vLXM&cup2hreq=35fbb29de5f61a698cdde8edf66223ae0c6af8884e33212766da1c4dafc2f1a1,553,152
+1716142069100,657,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",User Flow 2 2-1,,true,,4475,3026,1,2,null,0,0
+1716142069100,452,/actions/Account.action-59,200,,User Flow 2 2-1,text,true,,2404,2181,1,2,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=9E7F0CD3CA7CFC676482E04F5971E2A2,235,0
+1716142069100,235,/actions/Account.action-59-0,302,,User Flow 2 2-1,,true,,349,1204,1,2,https://petstore.octoperf.com/actions/Account.action,235,0
+1716142069335,217,/actions/Account.action-59-1,200,,User Flow 2 2-1,text,true,,2055,977,1,2,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=9E7F0CD3CA7CFC676482E04F5971E2A2,200,0
+1716142069553,205,/actions/Catalog.action-60,200,,User Flow 2 2-1,text,true,,2071,845,1,2,https://petstore.octoperf.com/actions/Catalog.action,205,0
+1716142072770,207, Enter Angel fish in the search text box & Click Search button,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1958,1118,1,2,null,0,0
+1716142072770,207,/actions/Catalog.action-61,200,,User Flow 2 2-1,text,true,,1958,1118,1,2,https://petstore.octoperf.com/actions/Catalog.action,206,0
+1716142075992,224, Select the 1st Result,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1942,795,1,2,null,0,0
+1716142075993,224,/actions/Catalog.action-64,200,,User Flow 2 2-1,text,true,,1942,795,1,2,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-FW-02,223,0
+1716142079229,229,Add to Cart,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2268,828,1,2,null,0,0
+1716142079229,229,/actions/Cart.action-65,200,,User Flow 2 2-1,text,true,,2268,828,1,2,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-20,227,0
+1716142082474,224, Update the quantity for 2 & click Update Cart button,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2117,1147,1,2,null,0,0
+1716142082474,224,/actions/Cart.action-66,200,,User Flow 2 2-1,text,true,,2117,1147,1,2,https://petstore.octoperf.com/actions/Cart.action,222,0
+1716142085711,227, Proceed to checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2185,772,1,2,null,0,0
+1716142085711,227,/actions/Order.action-67,200,,User Flow 2 2-1,text,true,,2185,772,1,2,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,225,0
+1716142088943,0, Payment Details,200,"Number of samples in transaction : 0, number of failing samples : 0",User Flow 2 2-1,,true,,0,0,1,2,null,0,0
+1716142091953,821, Billing Address Details,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,58614,315,1,1,null,0,143
+1716142091954,821,/chrome-variations/seed-68,200,OK,User Flow 2 2-1,text,true,,58614,315,1,1,http://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=124,463,143
+1716142095797,221,Click Continue,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2059,1460,1,1,null,0,0
+1716142095797,221,/actions/Order.action-71,200,,User Flow 2 2-1,text,true,,2059,1460,1,1,https://petstore.octoperf.com/actions/Order.action,219,0
+1716142099026,193,Click Confirm,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1984,780,1,1,null,0,0
+1716142099027,193,/actions/Order.action-72,200,,User Flow 2 2-1,text,true,,1984,780,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=,191,0
+1716142102231,229, Click Return to Main Menu,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2067,786,1,1,null,0,0
+1716142102231,229,/actions/Catalog.action-73,200,,User Flow 2 2-1,text,true,,2067,786,1,1,https://petstore.octoperf.com/actions/Catalog.action,227,0
+1716142105461,596, Click Sign Out,200,"Number of samples in transaction : 2, number of failing samples : 0",User Flow 2 2-1,,true,,4439,2298,1,1,null,0,0
+1716142105462,395,/actions/Account.action-74,200,,User Flow 2 2-1,text,true,,2371,1535,1,1,https://petstore.octoperf.com/actions/Catalog.action,193,0
+1716142105462,193,/actions/Account.action-74-0,302,,User Flow 2 2-1,,true,,305,772,1,1,https://petstore.octoperf.com/actions/Account.action?signoff=,193,0
+1716142105655,202,/actions/Account.action-74-1,200,,User Flow 2 2-1,text,true,,2066,763,1,1,https://petstore.octoperf.com/actions/Catalog.action,202,0
+1716142105857,201,/actions/Catalog.action-75,200,,User Flow 2 2-1,text,true,,2068,763,1,1,https://petstore.octoperf.com/actions/Catalog.action,199,0
+1716142109064,232,HTTP Request,200,,User Flow 2 2-1,text,true,,1475,186,1,1,https://petstore.octoperf.com/,232,0
+1716142112296,200,Enter the store,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2075,741,1,1,null,0,0
+1716142112297,200,/actions/Catalog.action-42,200,,User Flow 2 2-1,text,true,,2075,741,1,1,https://petstore.octoperf.com/actions/Catalog.action,199,0
+1716142115502,608,Sign In,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2104,819,1,1,null,0,407
+1716142115502,608,/actions/Account.action;jsessionid=270E026CB2724617D80B1C9E178EE905-56,200,,User Flow 2 2-1,text,true,,2104,819,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=270E026CB2724617D80B1C9E178EE905?signonForm=,607,407
+1716142119123,415,Enter username and password,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1993,9738,1,1,null,0,0
+1716142119123,415,/service/update2/json?cup2key=14:75zUsTrFVvqPnuxwjYwBGfo7DyMwg2-nKhZtna2vLXM&cup2hreq=35fbb29de5f61a698cdde8edf66223ae0c6af8884e33212766da1c4dafc2f1a1-58,200,OK,User Flow 2 2-1,text,true,,1993,9738,1,1,http://update.googleapis.com/service/update2/json?cup2key=14:75zUsTrFVvqPnuxwjYwBGfo7DyMwg2-nKhZtna2vLXM&cup2hreq=35fbb29de5f61a698cdde8edf66223ae0c6af8884e33212766da1c4dafc2f1a1,415,0
+1716142122551,625,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",User Flow 2 2-1,,true,,4477,3026,1,1,null,0,0
+1716142122551,436,/actions/Account.action-59,200,,User Flow 2 2-1,text,true,,2404,2181,1,1,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=99871BB30E7DBC80FFB73C33F1EFE500,236,0
+1716142122551,236,/actions/Account.action-59-0,302,,User Flow 2 2-1,,true,,349,1204,1,1,https://petstore.octoperf.com/actions/Account.action,236,0
+1716142122787,200,/actions/Account.action-59-1,200,,User Flow 2 2-1,text,true,,2055,977,1,1,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=99871BB30E7DBC80FFB73C33F1EFE500,189,0
+1716142122988,189,/actions/Catalog.action-60,200,,User Flow 2 2-1,text,true,,2073,845,1,1,https://petstore.octoperf.com/actions/Catalog.action,188,0
+1716142126186,232, Enter Angel fish in the search text box & Click Search button,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1955,1118,1,1,null,0,0
+1716142126186,232,/actions/Catalog.action-61,200,,User Flow 2 2-1,text,true,,1955,1118,1,1,https://petstore.octoperf.com/actions/Catalog.action,231,0
+1716142129431,229, Select the 1st Result,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1944,795,1,1,null,0,0
+1716142129431,229,/actions/Catalog.action-64,200,,User Flow 2 2-1,text,true,,1944,795,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-SW-01,227,0
+1716142132675,224,Add to Cart,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2264,827,1,1,null,0,0
+1716142132675,224,/actions/Cart.action-65,200,,User Flow 2 2-1,text,true,,2264,827,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-2,222,0
+1716142135906,241, Update the quantity for 2 & click Update Cart button,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2114,1147,1,1,null,0,0
+1716142135906,241,/actions/Cart.action-66,200,,User Flow 2 2-1,text,true,,2114,1147,1,1,https://petstore.octoperf.com/actions/Cart.action,240,0
+1716142139157,222, Proceed to checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2183,772,1,1,null,0,0
+1716142139157,222,/actions/Order.action-67,200,,User Flow 2 2-1,text,true,,2183,772,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,222,0
+1716142145406,705, Billing Address Details,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,58614,315,1,1,null,0,0
+1716142145406,705,/chrome-variations/seed-68,200,OK,User Flow 2 2-1,text,true,,58614,315,1,1,http://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=124,331,0
+1716142149121,219,Click Continue,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2061,1460,1,1,null,0,0
+1716142149121,219,/actions/Order.action-71,200,,User Flow 2 2-1,text,true,,2061,1460,1,1,https://petstore.octoperf.com/actions/Order.action,216,0
+1716142152347,192,Click Confirm,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1984,780,1,1,null,0,0
+1716142152347,192,/actions/Order.action-72,200,,User Flow 2 2-1,text,true,,1984,780,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=,191,0
+1716142155554,346, Click Return to Main Menu,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2070,786,1,1,null,0,0
+1716142155554,346,/actions/Catalog.action-73,200,,User Flow 2 2-1,text,true,,2070,786,1,1,https://petstore.octoperf.com/actions/Catalog.action,346,0
+1716142158907,574, Click Sign Out,200,"Number of samples in transaction : 2, number of failing samples : 0",User Flow 2 2-1,,true,,4443,2298,1,1,null,0,0
+1716142158907,395,/actions/Account.action-74,200,,User Flow 2 2-1,text,true,,2373,1535,1,1,https://petstore.octoperf.com/actions/Catalog.action,190,0
+1716142158907,190,/actions/Account.action-74-0,302,,User Flow 2 2-1,,true,,305,772,1,1,https://petstore.octoperf.com/actions/Account.action?signoff=,190,0
+1716142159098,204,/actions/Account.action-74-1,200,,User Flow 2 2-1,text,true,,2068,763,1,1,https://petstore.octoperf.com/actions/Catalog.action,204,0
+1716142159302,179,/actions/Catalog.action-75,200,,User Flow 2 2-1,text,true,,2070,763,1,1,https://petstore.octoperf.com/actions/Catalog.action,179,0
+1716142162491,188,HTTP Request,200,,User Flow 2 2-1,text,true,,1475,186,1,1,https://petstore.octoperf.com/,188,0
+1716142165682,187,Enter the store,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2072,741,1,1,null,0,0
+1716142165682,187,/actions/Catalog.action-42,200,,User Flow 2 2-1,text,true,,2072,741,1,1,https://petstore.octoperf.com/actions/Catalog.action,186,0
+1716142168874,191,Sign In,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2112,819,1,1,null,0,0
+1716142168874,191,/actions/Account.action;jsessionid=270E026CB2724617D80B1C9E178EE905-56,200,,User Flow 2 2-1,text,true,,2112,819,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=270E026CB2724617D80B1C9E178EE905?signonForm=,190,0
+1716142172067,470,Enter username and password,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2001,9738,1,1,null,0,116
+1716142172067,470,/service/update2/json?cup2key=14:75zUsTrFVvqPnuxwjYwBGfo7DyMwg2-nKhZtna2vLXM&cup2hreq=35fbb29de5f61a698cdde8edf66223ae0c6af8884e33212766da1c4dafc2f1a1-58,200,OK,User Flow 2 2-1,text,true,,2001,9738,1,1,http://update.googleapis.com/service/update2/json?cup2key=14:75zUsTrFVvqPnuxwjYwBGfo7DyMwg2-nKhZtna2vLXM&cup2hreq=35fbb29de5f61a698cdde8edf66223ae0c6af8884e33212766da1c4dafc2f1a1,470,116
+1716142175548,927,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",User Flow 2 2-1,,true,,4479,3026,1,1,null,0,372
+1716142175548,728,/actions/Account.action-59,200,,User Flow 2 2-1,text,true,,2407,2181,1,1,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=0BC4AD7CD6F7177ACA7F568528278DD9,556,372
+1716142175548,556,/actions/Account.action-59-0,302,,User Flow 2 2-1,,true,,349,1204,1,1,https://petstore.octoperf.com/actions/Account.action,556,372
+1716142176104,172,/actions/Account.action-59-1,200,,User Flow 2 2-1,text,true,,2058,977,1,1,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=0BC4AD7CD6F7177ACA7F568528278DD9,171,0
+1716142176276,199,/actions/Catalog.action-60,200,,User Flow 2 2-1,text,true,,2072,845,1,1,https://petstore.octoperf.com/actions/Catalog.action,199,0
+1716142179481,219, Enter Angel fish in the search text box & Click Search button,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1956,1118,1,1,null,0,0
+1716142179481,219,/actions/Catalog.action-61,200,,User Flow 2 2-1,text,true,,1956,1118,1,1,https://petstore.octoperf.com/actions/Catalog.action,218,0
+1716142182715,225, Select the 1st Result,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1944,795,1,1,null,0,0
+1716142182715,225,/actions/Catalog.action-64,200,,User Flow 2 2-1,text,true,,1944,795,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-SW-01,223,0
+1716142185950,207,Add to Cart,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2267,827,1,1,null,0,0
+1716142185950,207,/actions/Cart.action-65,200,,User Flow 2 2-1,text,true,,2267,827,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-2,206,0
+1716142189161,219, Update the quantity for 2 & click Update Cart button,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2118,1147,1,1,null,0,0
+1716142189161,219,/actions/Cart.action-66,200,,User Flow 2 2-1,text,true,,2118,1147,1,1,https://petstore.octoperf.com/actions/Cart.action,218,0
+1716142192387,234, Proceed to checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2188,772,1,1,null,0,0
+1716142192387,234,/actions/Order.action-67,200,,User Flow 2 2-1,text,true,,2188,772,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,232,0
+1716142198651,744, Billing Address Details,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,58614,315,1,1,null,0,96
+1716142198651,744,/chrome-variations/seed-68,200,OK,User Flow 2 2-1,text,true,,58614,315,1,1,http://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=124,384,96
+1716142202404,198,Click Continue,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2061,1460,1,1,null,0,0
+1716142202404,198,/actions/Order.action-71,200,,User Flow 2 2-1,text,true,,2061,1460,1,1,https://petstore.octoperf.com/actions/Order.action,196,0
+1716142205609,187,Click Confirm,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1985,780,1,1,null,0,0
+1716142205609,187,/actions/Order.action-72,200,,User Flow 2 2-1,text,true,,1985,780,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=,185,0
+1716142208807,184, Click Return to Main Menu,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2068,786,1,1,null,0,0
+1716142208808,184,/actions/Catalog.action-73,200,,User Flow 2 2-1,text,true,,2068,786,1,1,https://petstore.octoperf.com/actions/Catalog.action,182,0
+1716142212005,573, Click Sign Out,200,"Number of samples in transaction : 2, number of failing samples : 0",User Flow 2 2-1,,true,,4443,2298,1,1,null,0,0
+1716142212005,382,/actions/Account.action-74,200,,User Flow 2 2-1,text,true,,2375,1535,1,1,https://petstore.octoperf.com/actions/Catalog.action,192,0
+1716142212005,192,/actions/Account.action-74-0,302,,User Flow 2 2-1,,true,,305,772,1,1,https://petstore.octoperf.com/actions/Account.action?signoff=,192,0
+1716142212197,190,/actions/Account.action-74-1,200,,User Flow 2 2-1,text,true,,2070,763,1,1,https://petstore.octoperf.com/actions/Catalog.action,190,0
+1716142212387,191,/actions/Catalog.action-75,200,,User Flow 2 2-1,text,true,,2068,763,1,1,https://petstore.octoperf.com/actions/Catalog.action,191,0
+1716142215595,183,HTTP Request,200,,User Flow 2 2-1,text,true,,1475,186,1,1,https://petstore.octoperf.com/,183,0
+1716142218786,193,Enter the store,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2072,741,1,1,null,0,0
+1716142218786,193,/actions/Catalog.action-42,200,,User Flow 2 2-1,text,true,,2072,741,1,1,https://petstore.octoperf.com/actions/Catalog.action,193,0
+1716142221986,171,Sign In,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2109,819,1,1,null,0,0
+1716142221986,171,/actions/Account.action;jsessionid=270E026CB2724617D80B1C9E178EE905-56,200,,User Flow 2 2-1,text,true,,2109,819,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=270E026CB2724617D80B1C9E178EE905?signonForm=,170,0
+1716142225171,372,Enter username and password,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1997,9738,1,1,null,0,0
+1716142225171,372,/service/update2/json?cup2key=14:75zUsTrFVvqPnuxwjYwBGfo7DyMwg2-nKhZtna2vLXM&cup2hreq=35fbb29de5f61a698cdde8edf66223ae0c6af8884e33212766da1c4dafc2f1a1-58,200,OK,User Flow 2 2-1,text,true,,1997,9738,1,1,http://update.googleapis.com/service/update2/json?cup2key=14:75zUsTrFVvqPnuxwjYwBGfo7DyMwg2-nKhZtna2vLXM&cup2hreq=35fbb29de5f61a698cdde8edf66223ae0c6af8884e33212766da1c4dafc2f1a1,372,0
+1716142228558,646,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",User Flow 2 2-1,,true,,4478,3026,1,1,null,0,0
+1716142228558,425,/actions/Account.action-59,200,,User Flow 2 2-1,text,true,,2405,2181,1,1,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=2E35E946ACA76C8CB6288412C9F564F1,224,0
+1716142228558,224,/actions/Account.action-59-0,302,,User Flow 2 2-1,,true,,349,1204,1,1,https://petstore.octoperf.com/actions/Account.action,224,0
+1716142228782,201,/actions/Account.action-59-1,200,,User Flow 2 2-1,text,true,,2056,977,1,1,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=2E35E946ACA76C8CB6288412C9F564F1,201,0
+1716142228984,221,/actions/Catalog.action-60,200,,User Flow 2 2-1,text,true,,2073,845,1,1,https://petstore.octoperf.com/actions/Catalog.action,221,0
+1716142232220,209, Enter Angel fish in the search text box & Click Search button,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1957,1118,1,1,null,0,0
+1716142232221,209,/actions/Catalog.action-61,200,,User Flow 2 2-1,text,true,,1957,1118,1,1,https://petstore.octoperf.com/actions/Catalog.action,207,0
+1716142235436,181, Select the 1st Result,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1941,795,1,1,null,0,0
+1716142235436,181,/actions/Catalog.action-64,200,,User Flow 2 2-1,text,true,,1941,795,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-SW-01,166,0
+1716142238630,766,Add to Cart,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2268,827,1,1,null,0,589
+1716142238631,766,/actions/Cart.action-65,200,,User Flow 2 2-1,text,true,,2268,827,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-1,766,589
+1716142242401,186, Update the quantity for 2 & click Update Cart button,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2117,1147,1,1,null,0,0
+1716142242401,186,/actions/Cart.action-66,200,,User Flow 2 2-1,text,true,,2117,1147,1,1,https://petstore.octoperf.com/actions/Cart.action,185,0
+1716142245590,193, Proceed to checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2183,772,1,1,null,0,0
+1716142245590,193,/actions/Order.action-67,200,,User Flow 2 2-1,text,true,,2183,772,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,193,0
+1716142251807,497, Billing Address Details,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,58614,315,1,1,null,0,0
+1716142251807,497,/chrome-variations/seed-68,200,OK,User Flow 2 2-1,text,true,,58614,315,1,1,http://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=124,375,0
+1716142255317,200,Click Continue,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2059,1460,1,1,null,0,0
+1716142255317,200,/actions/Order.action-71,200,,User Flow 2 2-1,text,true,,2059,1460,1,1,https://petstore.octoperf.com/actions/Order.action,189,0
+1716142258529,212,Click Confirm,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1983,780,1,1,null,0,0
+1716142258529,212,/actions/Order.action-72,200,,User Flow 2 2-1,text,true,,1983,780,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=,211,0
+1716142261752,228, Click Return to Main Menu,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2069,786,1,1,null,0,0
+1716142261752,228,/actions/Catalog.action-73,200,,User Flow 2 2-1,text,true,,2069,786,1,1,https://petstore.octoperf.com/actions/Catalog.action,227,0
+1716142264994,627, Click Sign Out,200,"Number of samples in transaction : 2, number of failing samples : 0",User Flow 2 2-1,,true,,4443,2298,1,1,null,0,0
+1716142264994,387,/actions/Account.action-74,200,,User Flow 2 2-1,text,true,,2371,1535,1,1,https://petstore.octoperf.com/actions/Catalog.action,188,0
+1716142264994,188,/actions/Account.action-74-0,302,,User Flow 2 2-1,,true,,305,772,1,1,https://petstore.octoperf.com/actions/Account.action?signoff=,188,0
+1716142265183,198,/actions/Account.action-74-1,200,,User Flow 2 2-1,text,true,,2066,763,1,1,https://petstore.octoperf.com/actions/Catalog.action,197,0
+1716142265381,240,/actions/Catalog.action-75,200,,User Flow 2 2-1,text,true,,2072,763,1,1,https://petstore.octoperf.com/actions/Catalog.action,240,0
+1716142268634,188,HTTP Request,200,,User Flow 2 2-1,text,true,,1475,186,1,1,https://petstore.octoperf.com/,188,0
+1716142271837,199,Enter the store,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2070,741,1,1,null,0,0
+1716142271837,199,/actions/Catalog.action-42,200,,User Flow 2 2-1,text,true,,2070,741,1,1,https://petstore.octoperf.com/actions/Catalog.action,185,0
+1716142275044,203,Sign In,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2102,819,1,1,null,0,0
+1716142275045,203,/actions/Account.action;jsessionid=270E026CB2724617D80B1C9E178EE905-56,200,,User Flow 2 2-1,text,true,,2102,819,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=270E026CB2724617D80B1C9E178EE905?signonForm=,200,0
+1716142278249,392,Enter username and password,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2001,9738,1,1,null,0,60
+1716142278249,392,/service/update2/json?cup2key=14:75zUsTrFVvqPnuxwjYwBGfo7DyMwg2-nKhZtna2vLXM&cup2hreq=35fbb29de5f61a698cdde8edf66223ae0c6af8884e33212766da1c4dafc2f1a1-58,200,OK,User Flow 2 2-1,text,true,,2001,9738,1,1,http://update.googleapis.com/service/update2/json?cup2key=14:75zUsTrFVvqPnuxwjYwBGfo7DyMwg2-nKhZtna2vLXM&cup2hreq=35fbb29de5f61a698cdde8edf66223ae0c6af8884e33212766da1c4dafc2f1a1,392,60
+1716142281648,579,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",User Flow 2 2-1,,true,,4474,3026,1,1,null,0,0
+1716142281648,395,/actions/Account.action-59,200,,User Flow 2 2-1,text,true,,2406,2181,1,1,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=DCDF69C658E387CA6F87421A0E67B533,223,0
+1716142281648,223,/actions/Account.action-59-0,302,,User Flow 2 2-1,,true,,349,1204,1,1,https://petstore.octoperf.com/actions/Account.action,223,0
+1716142281871,172,/actions/Account.action-59-1,200,,User Flow 2 2-1,text,true,,2057,977,1,1,https://petstore.octoperf.com/actions/Catalog.action;jsessionid=DCDF69C658E387CA6F87421A0E67B533,170,0
+1716142282043,184,/actions/Catalog.action-60,200,,User Flow 2 2-1,text,true,,2068,845,1,1,https://petstore.octoperf.com/actions/Catalog.action,182,0
+1716142285238,192, Enter Angel fish in the search text box & Click Search button,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1955,1118,1,1,null,0,0
+1716142285239,192,/actions/Catalog.action-61,200,,User Flow 2 2-1,text,true,,1955,1118,1,1,https://petstore.octoperf.com/actions/Catalog.action,191,0
+1716142288437,193, Select the 1st Result,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1942,795,1,1,null,0,0
+1716142288437,193,/actions/Catalog.action-64,200,,User Flow 2 2-1,text,true,,1942,795,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-SW-01,193,0
+1716142291635,183,Add to Cart,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2264,827,1,1,null,0,0
+1716142291636,183,/actions/Cart.action-65,200,,User Flow 2 2-1,text,true,,2264,827,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-1,183,0
+1716142294829,213, Update the quantity for 2 & click Update Cart button,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2115,1147,1,1,null,0,0
+1716142294829,213,/actions/Cart.action-66,200,,User Flow 2 2-1,text,true,,2115,1147,1,1,https://petstore.octoperf.com/actions/Cart.action,200,0
+1716142298057,165, Proceed to checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2178,772,1,1,null,0,0
+1716142298057,165,/actions/Order.action-67,200,,User Flow 2 2-1,text,true,,2178,772,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,163,0
+1716142304235,730, Billing Address Details,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,58614,315,1,1,null,0,66
+1716142304235,730,/chrome-variations/seed-68,200,OK,User Flow 2 2-1,text,true,,58614,315,1,1,http://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=124,373,66
+1716142307979,658,Click Continue,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2059,1460,1,1,null,0,450
+1716142307979,658,/actions/Order.action-71,200,,User Flow 2 2-1,text,true,,2059,1460,1,1,https://petstore.octoperf.com/actions/Order.action,647,450
+1716142311651,213,Click Confirm,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,1982,780,1,1,null,0,0
+1716142311651,213,/actions/Order.action-72,200,,User Flow 2 2-1,text,true,,1982,780,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=,213,0
+1716142314877,186, Click Return to Main Menu,200,"Number of samples in transaction : 1, number of failing samples : 0",User Flow 2 2-1,,true,,2069,786,1,1,null,0,0
+1716142314878,186,/actions/Catalog.action-73,200,,User Flow 2 2-1,text,true,,2069,786,1,1,https://petstore.octoperf.com/actions/Catalog.action,184,0
+1716142318079,665, Click Sign Out,200,"Number of samples in transaction : 2, number of failing samples : 0",User Flow 2 2-1,,true,,4449,2298,1,1,null,0,0
+1716142318079,464,/actions/Account.action-74,200,,User Flow 2 2-1,text,true,,2376,1535,1,1,https://petstore.octoperf.com/actions/Catalog.action,221,0
+1716142318079,221,/actions/Account.action-74-0,302,,User Flow 2 2-1,,true,,305,772,1,1,https://petstore.octoperf.com/actions/Account.action?signoff=,221,0
+1716142318301,242,/actions/Account.action-74-1,200,,User Flow 2 2-1,text,true,,2071,763,1,1,https://petstore.octoperf.com/actions/Catalog.action,241,0
+1716142318543,201,/actions/Catalog.action-75,200,,User Flow 2 2-1,text,true,,2073,763,1,1,https://petstore.octoperf.com/actions/Catalog.action,201,0
